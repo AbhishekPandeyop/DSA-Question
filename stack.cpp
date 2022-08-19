@@ -100,9 +100,11 @@ int main(){
   cout<<"9.clear screan\n";
 cin>>choice;
 switch(choice){
-case1:
-  
-};
+  case 1:
+  cout<<s.pop()<<endl;
+  case 2:
+cout<<s.display()<<endl;
+}
 
   }while(choice!=0);
 
