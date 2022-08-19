@@ -2,13 +2,13 @@
 #include<string>
 using namespace std;
 
-class Stack{
+class Stack {
    private:
    int top;
    int arr[5];
 
   public:
-  Stack(){                             // constructure
+  Stack(){                         
      top ==-1;
      for(int i=0;i<5;i++){
       arr[i]=0;
